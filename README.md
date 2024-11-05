@@ -38,8 +38,8 @@ A powerful WordPress plugin for configuring multiple PrivateEmail mailboxes with
 1. Navigate to Settings > PrivateEmail Mail Config
 2. Configure SMTP Settings:
    - Host: mail.privateemail.com (default)
-   - Port: 587 (default)
-   - Encryption: TLS (default)
+   - Port: 587 (default) 456 for SSL
+   - Encryption: TLS (default) SSL for SSL
    - Username: Your PrivateEmail username
    - Password: Your PrivateEmail password
 
@@ -66,7 +66,7 @@ No additional configuration needed - emails are automatically routed based on th
 
 - WordPress 5.0 or higher
 - PHP 7.2 or higher
-- PrivateEmail.com email account
+- SMTP email account
 
 ## Support
 
